@@ -26,10 +26,10 @@ class TwitterUserTweetCollection {
   public void collect(String username, String outputFile) throws Exception {
 
     ConfigurationBuilder cb = new ConfigurationBuilder();
-    cb.setOAuthConsumerKey("0ApP0Ag26EDQktamLPC5c7xMz");
-    cb.setOAuthConsumerSecret("vUGFj0sJUSCUtjQkZuxG8ZE7hyRbFTAaAmw3kPHoILBJuQEVt5");
-    cb.setOAuthAccessToken("2941079587-CPIhw45mjnOmbzrkgI5Tj9uAIzenWIG3OZju5hO");
-    cb.setOAuthAccessTokenSecret("RL6cAHH5en4qUDC1MaSXpRzodhWh5VgTHAy6Hp5NLlq92");
+    cb.setOAuthConsumerKey("********************");
+    cb.setOAuthConsumerSecret("*********************************");
+    cb.setOAuthAccessToken("*************************************************");
+    cb.setOAuthAccessTokenSecret("*************************************************");
 
     Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 
