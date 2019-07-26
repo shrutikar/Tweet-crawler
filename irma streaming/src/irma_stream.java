@@ -39,10 +39,10 @@ public class irma_stream {
             // twitter keys
         	ConfigurationBuilder cb = new ConfigurationBuilder();
             cb.setDebugEnabled(true)
-            .setOAuthConsumerKey("dWSlNEN2BqwzrEv33yAhT2BQ5")
-            .setOAuthConsumerSecret("CkKrhjHNETlw3lTm8kvsH0XmuBF9bQroRwALPx0Y4Ab2M3eYEJ")
-            .setOAuthAccessToken("705918314955018240-5Izemd3NOI1guDpu21R9R3FWft9RSLB")
-            .setOAuthAccessTokenSecret("3qvhFPv6YFx2KXoFvNPyMzrDcHoUkrjIW6vobYJkuIYV8");
+            .setOAuthConsumerKey("*********************")
+            .setOAuthConsumerSecret("**************************")
+            .setOAuthAccessToken("*****************************************")
+            .setOAuthAccessTokenSecret("*************************************************");
          TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
               
              StringBuilder sb = new StringBuilder();
