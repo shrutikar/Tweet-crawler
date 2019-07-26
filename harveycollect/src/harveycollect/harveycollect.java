@@ -46,10 +46,10 @@ public class harveycollect {
             // twitter keys
           ConfigurationBuilder cb = new ConfigurationBuilder();
               cb.setDebugEnabled(true)
-                 .setOAuthConsumerKey("0ApP0Ag26EDQktamLPC5c7xMz")
-                 .setOAuthConsumerSecret("vUGFj0sJUSCUtjQkZuxG8ZE7hyRbFTAaAmw3kPHoILBJuQEVt5")
-                 .setOAuthAccessToken("2941079587-CPIhw45mjnOmbzrkgI5Tj9uAIzenWIG3OZju5hO")
-                 .setOAuthAccessTokenSecret("RL6cAHH5en4qUDC1MaSXpRzodhWh5VgTHAy6Hp5NLlq92");
+                 .setOAuthConsumerKey("*****************************")
+                 .setOAuthConsumerSecret("**********************************************")
+                 .setOAuthAccessToken("************************************************")
+                 .setOAuthAccessTokenSecret("*****************************************************");
            Twitter twitter = new TwitterFactory(cb.build()).getInstance();
            
              StringBuilder sb = new StringBuilder();
